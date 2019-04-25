@@ -1,0 +1,350 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass revtex4-1
+\begin_preamble
+\usepackage{amsfonts}
+\usepackage{palatino}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!100!black},
+    urlcolor={blue!100!black}
+}
+%\usepackage[backend=biber,style=ieee, maxnames=1]{biblatex}
+\end_preamble
+\options showpacs,preprintnumbers,amsmath,amssymb,aps,notitlepage,prl,superscriptaddress,Hyperref
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 0cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size normal
+VITA with Trotter and Strang Splitting
+\end_layout
+
+\begin_layout Author
+
+\lang british
+Nike Dattani
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Trotter splitting: 
+\begin_inset Formula $e^{(A+B)t}=e^{At}e^{Bt}+\mathcal{O}\left(t^{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang british
+Strang splitting: 
+\begin_inset Formula $e^{(A+B)t}=e^{A\frac{1}{2}t}e^{Bt}e^{A\frac{1}{2}t}+\mathcal{O}\left(t^{3}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz converging slowly with decreasing 
+\begin_inset Formula $t$
+\end_inset
+
+: 
+\begin_inset Formula $e^{{\rm \frac{{\rm i}}{\hbar}}Ht}=\prod e^{A{\rm d}t}e^{B{\rm d}t}+\mathcal{O}\left({\rm d}t\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Ansatz converging more rapidly with decreasing 
+\begin_inset Formula $t$
+\end_inset
+
+: 
+\begin_inset Formula $e^{{\rm \frac{{\rm i}}{\hbar}}Ht}=\prod e^{\frac{{\rm d}t}{2}A}e^{{\rm d}tB}e^{\frac{{\rm d}t}{2}A}+\mathcal{O}\left({\rm d}t^{2}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ansatz converging slowly: 
+\begin_inset Formula $\prod e^{\alpha_{p}A}e^{\alpha_{p}B}+\mathcal{O}\left(P\max_{p}\alpha_{p}^{2}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Ansatz converging more rapidly: 
+\begin_inset Formula $\prod e^{\alpha_{p}\frac{1}{2}A}e^{\alpha_{p}B}e^{\alpha_{p}\frac{1}{2}A}+\mathcal{O}\left(P\max_{p}\alpha_{p}^{3}\right)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+In the last equations, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+the error comes from the fact that each Trotter/Strang application introduces
+ an error of 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\alpha_{p}^{2}$
+\end_inset
+
+ or 
+\begin_inset Formula $\alpha_{p}^{3}$
+\end_inset
+
+, and we have 
+\begin_inset Formula $P$
+\end_inset
+
+ applications of Trotter/Strang splittings so the total error goes as 
+\begin_inset Formula $P\alpha_{p}^{2}$
+\end_inset
+
+ or 
+\begin_inset Formula $P\alpha_{p}^{3}$
+\end_inset
+
+.
+ The error will be dominated by the biggest 
+\begin_inset Formula $\alpha_{p}$
+\end_inset
+
+ so that's why we have the 
+\begin_inset Quotes eld
+\end_inset
+
+maximum
+\begin_inset Quotes erd
+\end_inset
+
+ function.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As long as 
+\begin_inset Formula $\alpha_{p}$
+\end_inset
+
+ is small (which has to be the case for either of these to converge), 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\alpha_{p}^{3}$
+\end_inset
+
+ will be much smaller than 
+\begin_inset Formula $\alpha_{p}^{2}$
+\end_inset
+
+, and hence the total error will be smaller with Strang splitting compared
+ with Trotter.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This can be generalized to include both 
+\begin_inset Formula $\alpha_{p}$
+\end_inset
+
+ and 
+\begin_inset Formula $\beta_{p}$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
